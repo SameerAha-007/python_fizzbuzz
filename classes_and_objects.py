@@ -1,4 +1,6 @@
-'''class Dog:
+#----classes and Objects----
+'''
+class Dog:
     def __init__(self,name):
         self.name=name
         self.legs=4
@@ -7,9 +9,11 @@
 myDog1=Dog("kuka")
 print(myDog1.name)
 print(myDog1.legs)
-myDog1.speak()'''
+myDog1.speak()
+'''
 
-'''class Cse:
+'''
+class Cse:
     def __init__(self,name,section):
         self.name=name
         self.section=section
@@ -22,7 +26,8 @@ print("N2 is:"+n2.name+"  \nsection:",n2.section)
 '''
 
 
-'''class Come:
+'''
+class Come:
     def __init__(self,name):
         self.name=name
 print("Enter your name:",end="")
@@ -33,6 +38,5 @@ print ("Welcome",p.name)
 
 print("enter your name:",end="")
 f=input()
-print("Welcome ",f)'''
-
-
+print("Welcome ",f)
+'''

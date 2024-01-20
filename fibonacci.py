@@ -1,4 +1,5 @@
-'''#sum of fibonacci series
+'''
+#sum of fibonacci series
 def fibonaci(n):
     if (n==0):
         return 0
@@ -8,9 +9,11 @@ def fibonaci(n):
         return  fibonaci(n-1)+fibonaci(n - 2)
 print("enter a number:",end="")
 n =int(input())
-print(fibonaci(n))'''
+print(fibonaci(n))
+'''
 
 
+'''
 print("Enter a number:",end="")
 n = int(input())
 num1 = 0
@@ -25,3 +28,4 @@ while count <= n:
     num2 =next_number
     next_number = num1 + num2
 print()
+'''
